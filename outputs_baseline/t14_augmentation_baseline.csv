@@ -1,0 +1,3 @@
+﻿Phương pháp huấn luyện,Mô hình,Val Accuracy,Val Precision,Val Recall (Violence),Val F1,Val ROC-AUC,Test Accuracy,Test Precision,Test Recall (Violence),Test F1,Test ROC-AUC,Cross-Test Accuracy,Cross-Test F1,Cross-Test ROC-AUC
+Không tăng cường dữ liệu (No Augmentation),"GRU (T=16, H=128)",0.9832,0.9737,0.9933,0.9834,0.9986,0.9764,0.9732,0.9797,0.9764,0.9977,0.555,0.6276,0.6514
+Có tăng cường dữ liệu (With augment_clip),"GRU (T=16, H=128)",0.9799,0.9799,0.9799,0.9799,0.9982,0.9764,0.9862,0.9662,0.9761,0.9984,0.5925,0.6321,0.679

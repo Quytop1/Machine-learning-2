@@ -1,0 +1,14 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Redundant per-video .npy caches and >50MB feature archives (exceeding GitHub file size limits)
+features/T8/
+features/T16/
+features/T16_aug/
+features/T20/
+features/*.npy
+features/features_n8.npz
+features/features_n16.npz
+features/features_n20.npz
